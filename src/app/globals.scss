@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Outfit";
+        font-weight: normal;
+        background-color: #1d2528;
+    }
+}
+
+@layer utilities {
+    .clip-icon {
+        clip-path: circle(40%);
+    }
+}
+
+// #about {
+//     margin-top: 20px;
+//     width: 600px;
+//     min-height: 200px;
+//     max-height: fit-content;
+//     // height: fit-content;
+//     // overflow-y: auto;
+// }
+// #about2 {
+//     &:empty::before {
+//         content: "Placeholder still possible";
+//         color: gray;
+//     }
+//     // width: 600px;
+//     display: block;
+//     //   width: 100%;
+//     // overflow: hidden;
+//     resize: none;
+//     outline: none;
+//     color: #cac2c2;
+//     font-family: "Zona Pro";
+//     cursor: text;
+// }
+.prof-icon {
+    width: 100%;
+    height: auto;
+    clip-path: circle(40%);
+}
+
+// #profile {
+//     // width: 100px;
+//     width: 100%;
+//     height: auto;
+//     margin-right: 100px;
+//     clip-path: circle(40%);
+//     background-color: white;
+//     padding-top: 10px;
+// }
+// #link-add-dp {
+//     height: 100%;
+//     width: auto;
+//     clip-path: circle(40%);
+//     background-color: white;
+//     // width: 50%;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // margin: auto;
+//     // height: auto;
+//     // margin-right: 10px;
+//     // padding-top: 10px;
+// }
+// textarea {
+//     height: fit-content;
+//     overflow-y: hidden;
+
+//     // color: white;
+// }
+// input {
+//     // color: white;
+// }
+// textarea,
+// input {
+//     border-radius: 30px;
+//     background-color: #708090;
+//     padding: 10px 20px;
+//     transition: transform 500ms;
+//     &::selection {
+//         background-color: rgb(183, 173, 106);
+//     }
+//     &:focus {
+//         outline: 4px solid rgb(255 94 83);
+//     }
+//     &:hover {
+//         // translate: 10px;
+//         transform: scale(105%);
+//         // background-color: rgb(151, 145, 106);
+//         // background-color: #b7b7b7;
+//     }
+// }
+// input[type="file"] {
+//     width: 300px;
+// }
+
+// .btn {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: fit-content;
+//     background-color: white;
+//     border-radius: 30px;
+//     padding: 10px 20px;
+//     &:hover {
+//         background-color: rgb(171, 155, 37);
+//         color: white;
+//     }
+// }
+
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-Thin.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-LightItalic.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro.otf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-SemiBold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-Bold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-ExtraBold.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Zona Pro";
+    src: url("../../lib/fonts/ZonaPro-Black.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../../lib/fonts/Outfit-SemiBold.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("../../lib/fonts/Outfit-Light.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("../../lib/fonts/Outfit-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../lib/fonts/Poppins-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../lib/fonts/Poppins-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../lib/fonts/Poppins-SemiBold.otf");
+    font-weight: 600;
+}

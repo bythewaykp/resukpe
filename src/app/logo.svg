@@ -1,0 +1,16 @@
+<svg width="200" height="200">
+                <circle cx="100" cy="100" r="50" fill="black" />
+                <text
+                    x="100"
+                    y="100"
+                    text-anchor="middle"
+                    dominant-baseline="middle"
+                    fill="white"
+                    font-size="16"
+                >
+                    <tspan x="90" fill="yellow">
+                        kp
+                    </tspan>
+                    <tspan x="105">e.</tspan>
+                </text>
+            </svg>
